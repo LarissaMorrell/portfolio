@@ -11,7 +11,7 @@ a {
 
 #sidebar {
   animation-duration: 0.2s;
-  background-color: rgba(14, 31, 6, 0.9);
+  background-color: rgba(11, 23, 52, 0.9);
   height: 100%;
   left: 0;
   position: fixed;
@@ -33,9 +33,9 @@ a {
       width: 100%; }
       #sidebar ul li:hover {
         background-color: #222426 !important;
-        color: #0e1f06 !important; }
+        color: #0b1734 !important; }
       #sidebar ul li a {
-        background-color: rgba(14, 31, 6, 0);
+        background-color: rgba(11, 23, 52, 0);
         color: inherit;
         display: table-cell;
         height: 100%;
@@ -160,9 +160,9 @@ a {
   #contact p {
     font-size: 0.7em; } }
 .background-img {
-  background: url(../media/code-laptop.jpeg) no-repeat;
+  background: url(../media/javascript-code.jpg) no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: center top;
   height: 100%; }
 
 .dark-gray-overlay {
@@ -187,7 +187,7 @@ a {
   background-color: #85de5e; }
 
 .dark-green-font {
-  color: #0e1f06; }
+  color: #0b1734; }
 
 .center {
   left: 50%;

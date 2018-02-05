@@ -6,7 +6,7 @@ $dark-grey: #222426;
 $middle-green: #85de5e;
 $light-white: #fdfdff;
 $light-green: #f5fcf2;
-$dark-green: #0e1f06;
+$dark-green: #0b1734;
 $sidebar-color: rgba($dark-green, 0.9);
 $sidebar-item-color: rgba($dark-green, 0);
 
@@ -244,9 +244,10 @@ a {
 .background-img {
   // background: url(../media/code.png) repeat;
   // background: url(../media/code-screens.png) no-repeat;
-  background: url(../media/code-laptop.jpeg) no-repeat;
+  // background: url(../media/code-laptop.jpeg) no-repeat;
+  background: url(../media/javascript-code.jpg) no-repeat;
   background-size: cover;
-  background-position: left top;
+  background-position: center top;
   height: 100%;
 }
 
