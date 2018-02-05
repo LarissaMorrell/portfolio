@@ -160,6 +160,7 @@ a {
   #contact p {
     font-size: 0.7em; } }
 .background-img {
+  background: url(../media/javascript-code.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
   height: 100%; }
