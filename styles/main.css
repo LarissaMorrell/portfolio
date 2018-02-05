@@ -160,14 +160,13 @@ a {
   #contact p {
     font-size: 0.7em; } }
 .background-img {
-  background: url(../media/javascript-code.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
   height: 100%; }
 
 .dark-gray-overlay {
   background-color: #222426;
-  opacity: 0.85;
+  opacity: 0.9;
   position: absolute;
   width: 100%; }
 

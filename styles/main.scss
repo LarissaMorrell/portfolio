@@ -242,10 +242,6 @@ a {
 }
 
 .background-img {
-  // background: url(../media/code.png) repeat;
-  // background: url(../media/code-screens.png) no-repeat;
-  // background: url(../media/code-laptop.jpeg) no-repeat;
-  background: url(../media/javascript-code.jpg) no-repeat;
   background-size: cover;
   background-position: center top;
   height: 100%;
@@ -253,7 +249,7 @@ a {
 
 .dark-gray-overlay {
   background-color: $dark-grey;
-  opacity: 0.85;
+  opacity: 0.9;
   position: absolute;
   width: 100%;
 }
