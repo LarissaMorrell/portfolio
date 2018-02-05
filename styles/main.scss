@@ -3,7 +3,8 @@ $font-base: "Inconsolata", "Monaco", monospace;
 $font-about: "Droid Serif", sans-serif;
 
 $dark-grey: #222426;
-$middle-blue: #00f6ed;
+$middle-blue: #85de5e;
+// $middle-blue: #00f6ed;
 $light-white: #fdfdff;
 $light-blue: #edf9f9;
 $dark-blue: #546a7b;
@@ -241,8 +242,20 @@ a {
   }
 }
 
-.dark-gray-background {
+.background-img {
+  // background: url(../media/code.png) repeat;
+  // background: url(../media/code-screens.png) no-repeat;
+  background: url(../media/code-laptop.jpeg) no-repeat;
+  background-size: cover;
+  background-position: left top;
+  height: 100%;
+}
+
+.dark-gray-overlay {
   background-color: $dark-grey;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%;
 }
 
 .dark-gray-font {

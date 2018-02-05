@@ -46,7 +46,7 @@ a {
         vertical-align: middle;
         width: 100%; }
         #sidebar ul li a:hover {
-          color: #00f6ed !important;
+          color: #85de5e !important;
           transform: translate(5px, 0);
           transition: 0.2s linear; }
 
@@ -113,7 +113,7 @@ a {
   background-color: #222426;
   font-size: 25px; }
   #contact strong {
-    color: #00f6ed; }
+    color: #85de5e; }
 
 @media (min-width: 1024px) {
   #menu-button {
@@ -159,8 +159,17 @@ a {
     font-size: 0.7em; }
   #contact p {
     font-size: 0.7em; } }
-.dark-gray-background {
-  background-color: #222426; }
+.background-img {
+  background: url(../media/code-laptop.jpeg) no-repeat;
+  background-size: cover;
+  background-position: left top;
+  height: 100%; }
+
+.dark-gray-overlay {
+  background-color: #222426;
+  opacity: 0.85;
+  position: absolute;
+  width: 100%; }
 
 .dark-gray-font {
   color: #222426 !important; }
@@ -172,10 +181,10 @@ a {
   background-color: #edf9f9; }
 
 .middle-blue-font {
-  color: #00f6ed !important; }
+  color: #85de5e !important; }
 
 .middle-blue-background {
-  background-color: #00f6ed; }
+  background-color: #85de5e; }
 
 .dark-blue-font {
   color: #546a7b; }
