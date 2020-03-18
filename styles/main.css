@@ -1,7 +1,6 @@
 html,
 body {
   font-family: "Inconsolata", "Monaco", monospace;
-  font-smoothing: antialiased;
   height: 100%;
   min-width: 320px; }
 
@@ -54,25 +53,18 @@ a {
   background-color: #f5fcf2;
   padding: 80px 0; }
   #projects h2 {
-    display: block;
+    margin: 0 auto 50px auto;
     font-size: 38px;
-    font-weight: 400;
     letter-spacing: 5px;
-    margin: 0 !important;
-    margin-after: 0.83em;
-    margin-before: 0.83em;
-    padding-bottom: 50px;
-    position: relative;
     text-align: center; }
-    #projects h2after {
-      bottom: 30px;
-      content: "";
-      display: block;
-      height: 3px;
-      left: 50%;
-      position: absolute;
-      transform: translateX(-50%);
-      width: 100px; }
+  #projects .panel {
+    border: 1px solid #ddd; }
+  #projects .panel-footer {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid#ddd; }
+  #projects h3 {
+    font-weight: 500;
+    margin: 0 0 15px 0 !important; }
   #projects .panel-body img {
     width: 300px;
     height: 300px; }
@@ -88,11 +80,9 @@ a {
     font-weight: 400;
     letter-spacing: 5px;
     margin: 0 !important;
-    margin-after: 0.83em;
-    margin-before: 0.83em;
     padding-bottom: 50px;
     text-align: center; }
-    #about h2after {
+    #about h2:after {
       bottom: 30px;
       content: "";
       display: block;
